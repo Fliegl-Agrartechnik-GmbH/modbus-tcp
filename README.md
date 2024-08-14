@@ -23,9 +23,20 @@ DHCP:
 the Sample is using DHCP. 
 so you need some Router or other DHCP Server. 
 Pay Attention: when using a Fritz Box, "espressif" for both Host-Names is bad. 
-the 2 devices get same IP. 
+the 2 devices are not shown different in the Fritz Box. 
+
+Pay also big attention, to not have duplicated MAC address. 
+
+see
+
+<https://github.com/espressif/esp-idf/issues/14364>
+
+in this Example 
+ * the Master is set to `02:00:00:AB:CD:EF`
+ * the Sclave is set to `02:00:00:12:34:56`
 
 
+this is Dangerous, because if in your Network another Device appear with same MAC, bad things happen (like stealing the IP via DHCP)
 
 
 ![5325828300116974424](https://github.com/user-attachments/assets/dfba679b-0352-4cb2-b3ab-8cd1e5cafd95)
