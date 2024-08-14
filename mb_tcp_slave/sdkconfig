@@ -529,7 +529,7 @@ CONFIG_PARTITION_TABLE_MD5=y
 # Modbus Example Configuration
 #
 CONFIG_MB_SLAVE_ADDR=1
-CONFIG_MB_MDNS_IP_RESOLVER=y
+# CONFIG_MB_MDNS_IP_RESOLVER is not set
 # end of Modbus Example Configuration
 
 #
