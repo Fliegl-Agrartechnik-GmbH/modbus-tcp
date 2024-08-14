@@ -13,4 +13,11 @@ with
 
 
 
+
+Important: Power the Base, e.g. with 24V. 
+the M5 Core does not power ist, unless you configure special things. 
+this is not in this Sample. 
+
+
+
 ![5325828300116974424](https://github.com/user-attachments/assets/dfba679b-0352-4cb2-b3ab-8cd1e5cafd95)
