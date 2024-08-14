@@ -130,9 +130,7 @@ const uint16_t num_device_parameters = (sizeof(device_parameters) / sizeof(devic
 // Modbus TCP stack shall use these addresses to be able to connect and read parameters from slave
 char* slave_ip_address_table[] = {
 #if CONFIG_MB_SLAVE_IP_FROM_STDIN
-    "FROM_STDIN",     // Address corresponds to MB_DEVICE_ADDR1 and set to predefined value by user
-    "FROM_STDIN",     // Corresponds to characteristic MB_DEVICE_ADDR2
-    "FROM_STDIN",     // Corresponds to characteristic MB_DEVICE_ADDR3
+    "192.168.178.78",     // Address corresponds to MB_DEVICE_ADDR1 and set to predefined value by user
     NULL              // End of table condition (must be included)
 #elif CONFIG_MB_MDNS_IP_RESOLVER
     NULL,
