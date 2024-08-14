@@ -528,8 +528,8 @@ CONFIG_PARTITION_TABLE_MD5=y
 #
 # Modbus TCP Example Configuration
 #
-# CONFIG_MB_MDNS_IP_RESOLVER is not set
-CONFIG_MB_SLAVE_IP_FROM_STDIN=y
+CONFIG_MB_MDNS_IP_RESOLVER=y
+# CONFIG_MB_SLAVE_IP_FROM_STDIN is not set
 # end of Modbus TCP Example Configuration
 
 #
