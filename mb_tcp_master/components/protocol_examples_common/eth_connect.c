@@ -156,7 +156,7 @@ static esp_netif_t *eth_start(void)
        02:00:00 is a Locally Administered OUI range so should not be used except when testing on a LAN under your control.
     */
     ESP_ERROR_CHECK(esp_eth_ioctl(s_eth_handle, ETH_CMD_S_MAC_ADDR, (uint8_t[]) {
-        0x02, 0x00, 0x00, 0x12, 0x34, 0x56
+        0x02, 0x00, 0x00, 0xAB, 0xCD, 0xEF
     }));
 #endif
     // combine driver with netif
