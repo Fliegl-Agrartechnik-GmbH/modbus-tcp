@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+mb_tcp_slave/managed_components/
+
+mb_tcp_master/managed_components/
