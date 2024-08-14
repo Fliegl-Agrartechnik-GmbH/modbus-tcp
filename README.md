@@ -21,3 +21,10 @@ this is not in this Sample.
 
 
 ![5325828300116974424](https://github.com/user-attachments/assets/dfba679b-0352-4cb2-b3ab-8cd1e5cafd95)
+
+
+
+Power the Base: 
+
+
+![5325828300116974520](https://github.com/user-attachments/assets/39e7f4da-211f-462c-909d-c35503e3d04e)
