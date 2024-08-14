@@ -22,8 +22,8 @@ this is not in this Sample.
 DHCP: 
 the Sample is using DHCP. 
 so you need some Router or other DHCP Server. 
-Pay Attention: when using a Fritz Box, "espressif" for both Host-Names is bad. 
-the 2 devices are not shown different in the Fritz Box. 
+Pay Attention: when using a FRITZ!Box , "espressif" for both Host-Names is bad. 
+the 2 devices are not shown different in the FRITZ!Box . 
 
 Pay also big attention, to not have duplicated MAC address. 
 
