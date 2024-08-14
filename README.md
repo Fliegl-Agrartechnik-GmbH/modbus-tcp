@@ -19,6 +19,14 @@ the M5 Core does not power ist, unless you configure special things.
 this is not in this Sample. 
 
 
+DHCP: 
+the Sample is using DHCP. 
+so you need some Router or other DHCP Server. 
+Pay Attention: when using a Fritz Box, "espressif" for both Host-Names is bad. 
+the 2 devices get same IP. 
+
+
+
 
 ![5325828300116974424](https://github.com/user-attachments/assets/dfba679b-0352-4cb2-b3ab-8cd1e5cafd95)
 
