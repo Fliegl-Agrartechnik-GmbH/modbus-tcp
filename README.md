@@ -36,6 +36,8 @@ in this Example
  * the Sclave is set to `02:00:00:12:34:56`
 
 
+this is Dangerous, because if in your Network another Device appear with same MAC, bad things happen (like stealing the IP via DHCP)
+
 
 ![5325828300116974424](https://github.com/user-attachments/assets/dfba679b-0352-4cb2-b3ab-8cd1e5cafd95)
 
