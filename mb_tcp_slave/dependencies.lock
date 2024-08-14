@@ -22,12 +22,6 @@ dependencies:
       path: /home/franz/esp-idf-v5.3/examples/protocols/modbus/mb_example_common
       type: local
     version: '*'
-  protocol_examples_common:
-    component_hash: null
-    source:
-      path: /home/franz/esp-idf-v5.3/examples/common_components/protocol_examples_common
-      type: local
-    version: '*'
-manifest_hash: d12f2d80b67d486dd82c0dfeb2188c3fac0baf6917db785e291ec62c8bb7b8a2
+manifest_hash: 85b3f60a4f47e081c76ccaba24963b1060c583649b41acfd2a58e7a9c352df4a
 target: esp32s3
 version: 1.0.0
